@@ -55,16 +55,22 @@ body {
 
 a {
     color: #004994;
+    text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
     color: #009ee3;
+    text-decoration: none;
 }
 
 :focus {
     box-shadow: none !important;
+}
+
+.w-125 {
+    max-width: 125px;
 }
 
 .bg-blue-dark {
@@ -99,9 +105,15 @@ a:focus {
     border-bottom: 2px dotted #88be31 !important;
 }
 
+.navbar-brand {
+    font-size: 1rem;
+    line-height: 125%;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     color: #144e80;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover,
@@ -112,19 +124,23 @@ a:focus {
 }
 
 @media screen and (min-width: 992px) {
+    .navbar {
+        padding-top: 1.5rem;
+        padding-bottom: 0.125rem;
+    }
+
     .navbar > .container {
         flex-direction: column;
         align-items: start;
     }
 
-    .navbar-expand-lg .navbar-nav .nav-link:nth-child(1) {
-        padding-left: 0;
+    .navbar-brand {
+        font-size: 1.5rem;
+        line-height: 100%;
     }
 
-    .navbar-brand img {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        height: 40px;
+    .navbar-expand-lg .navbar-nav .nav-link:nth-child(1) {
+        padding-left: 0;
     }
 }
 
@@ -208,4 +224,3 @@ a:focus {
     color: #144e80;
     background-color: #ffffff;
 }
-
