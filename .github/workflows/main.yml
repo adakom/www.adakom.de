@@ -19,12 +19,4 @@ jobs:
         protocol: ftps
         local-dir: ./
         server-dir: ./www.adakom.de
-        exclude:
-          - **/.git*
-          - **/.git*/**
-          - .github
-          - .idea
-          - .bowerrc
-          - .gitignore
-
-
+        exclude: '[ "**/.git*", "**/.git*/**", ".github", ".idea", ".bowerrc", ".gitignore" ]'
