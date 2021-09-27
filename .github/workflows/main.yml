@@ -1,0 +1,30 @@
+name: CI - main
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deploy to www.adakom.de
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: home18897419.1and1-data.host
+        username: ${{ secrets.SFTP_USERNAME }}
+        password: ${{ secrets.SFTP_PASSWORD }}
+        port: 22
+        protocol: ftps
+        local-dir: ./
+        server-dir: ./www.adakom.de
+        exclude:
+          - **/.git*
+          - **/.git*/**
+          - .github
+          - .idea
+          - .bowerrc
+          - .gitignore
+
+
