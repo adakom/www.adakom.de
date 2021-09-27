@@ -10,13 +10,9 @@ jobs:
 
     steps:
     - name: Deploy to www.adakom.de
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        server: home18897419.1and1-data.host
-        username: ${{ secrets.SFTP_USERNAME }}
-        password: ${{ secrets.SFTP_PASSWORD }}
-        port: 22
-        protocol: ftps
+        ftp-server: sftp://home18897419.1and1-data.host:22/www.adakom.de/
+        ftp-username: ${{ secrets.SFTP_USERNAME }}
+        ftp-password: ${{ secrets.SFTP_PASSWORD }}
         local-dir: ./
-        server-dir: ./www.adakom.de/
-        exclude: '[ "**/.git*", "**/.git*/**", ".github", ".idea", ".bowerrc", ".gitignore" ]'
