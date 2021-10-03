@@ -202,19 +202,19 @@
     <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
     <script>
-    $('.nav-link').click(function(e) {
-        const divId = $(this).attr('href');
-        const offset = 106;
-        $('html, body').animate({
-            scrollTop: $(divId).offset().top - offset
-        }, 100);
-        const menuToggle = document.getElementById('navbar-collapse');
-        if (menuToggle.classList.contains('show')) {
-            const bsCollapse = new bootstrap.Collapse(menuToggle);
-            bsCollapse.toggle();
-        }
-        e.preventDefault();
-    });
+        $('.nav-link').click(function(e) {
+            const divId = $(this).attr('href');
+            const offset = 106;
+            $('html, body').animate({
+                scrollTop: $(divId).offset().top - offset
+            }, 100);
+            const menuToggle = document.getElementById('navbar-collapse');
+            if (menuToggle.classList.contains('show')) {
+                const bsCollapse = new bootstrap.Collapse(menuToggle);
+                bsCollapse.toggle();
+            }
+            e.preventDefault();
+        });
     </script>
 
     <!-- Google Tag Manager -->
