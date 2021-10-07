@@ -9,4 +9,4 @@ RewriteCond %{SERVER_PORT} !=443
 RewriteRule ^(.*)$ https://www.adakom.de/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} !^www\.adakom\.de [NC]
-RewriteRule ^(.*)$ http://www.adakom.de/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.adakom.de/$1 [R=301,L]
