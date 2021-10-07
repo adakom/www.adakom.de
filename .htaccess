@@ -3,7 +3,7 @@ RewriteBase /
 
 RedirectPermanent /de/job-softwareentwickler-c-in-berlin.html /job-softwareentwickler-c-in-berlin.html
 RedirectPermanent /de/werkstudent-it-in-berlin.html /werkstudent-it-in-berlin.html
-RedirectPermanent /de/index.html /index.html
+RedirectPermanent /de/index.html /
 
 RewriteCond %{SERVER_PORT} !=443
 RewriteRule ^(.*)$ https://www.adakom.de/$1 [R=301,L]
