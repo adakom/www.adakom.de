@@ -9670,8 +9670,8 @@ paths:
             - calculation
         - bearerAuth: []
   /api/htri/calculate:
-    x-internal: true
     post:
+      x-internal: true
       summary: Create a new HTRI job template for DTS
       description: |
         Triggers a calculation job on the external HTRI service. A job have three states
@@ -9891,8 +9891,8 @@ paths:
         - bearerAuth: []
 
   /api/quote_requests:
-    x-internal: true
     post:
+      x-internal: true
       summary: Create a new quote request
       tags:
         - CRM
@@ -9916,8 +9916,8 @@ paths:
         - bearerAuth: [ ]
         - basicAuth: [ ]
   /api/quote_requests/{uuid}:
-    x-internal: true
     put:
+      x-internal: true
       summary: Update a quote request
       tags:
         - CRM
