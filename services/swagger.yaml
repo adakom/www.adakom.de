@@ -9647,7 +9647,7 @@ paths:
         - bearerAuth: []
   /assets/drawings/{path}:
     get:
-      summary: Retrieves a drawing (DRAFT)
+      summary: Retrieves a drawing
       tags:
         - Calculation
       parameters:
@@ -9949,9 +9949,9 @@ paths:
         - bearerAuth: [ ]
         - basicAuth: [ ]
   /api/test/hecs:
-    x-internal: true
     summary: Represents a hecs test
     post:
+      x-internal: true
       summary: Calculate with Hecs
       tags:
         - Test
@@ -9973,9 +9973,9 @@ paths:
         - OAuth2: []
         - bearerAuth: []
   /api/test/strength/tube/{design_code}/{module}:
-    x-internal: true
     summary: Represents a tube strength test
     post:
+      x-internal: true
       summary: Calculate a tube strength
       tags:
         - Test
@@ -10012,9 +10012,9 @@ paths:
         - OAuth2: []
         - bearerAuth: []
   /api/test/strength/shell/{design_code}/{module}:
-    x-internal: true
     summary: Represents a shell strength test
     post:
+      x-internal: true
       summary: Calculate a shell strength
       tags:
         - Test
@@ -10051,9 +10051,9 @@ paths:
         - OAuth2: []
         - bearerAuth: []
   /api/test/strength/torisphericalhead/{design_code}/{module}:
-    x-internal: true
     summary: Represents a torisphericalhead strength test
     post:
+      x-internal: true
       summary: Calculate a torisphericalhead strength
       tags:
         - Test
@@ -10090,9 +10090,9 @@ paths:
         - OAuth2: []
 
   /api/test/strength/flatheadsandsheets/{design_code}/{module}:
-    x-internal: true
     summary: Represents a flatheadsandsheets strength test
     post:
+      x-internal: true
       summary: Calculate a flatheadsandsheets strength
       tags:
         - Test
@@ -10129,9 +10129,9 @@ paths:
         - OAuth2: []
 
   /api/test/strength/flange/{design_code}/{module}:
-    x-internal: true
     summary: Represents a flange strength test
     post:
+      x-internal: true
       summary: Calculate a flange strength
       tags:
         - Test
