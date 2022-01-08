@@ -67,19 +67,17 @@
             <div class="row">
                 <div class="col">
                     <h1 class="mt-5 text-blue-dark">Changelog</h1>
-                    <h2 class="text-blue-light"> 1.0.2 - 2021/12/12</h2>
+                    <p>All notable changes to the REST API will be documented on this page.</p>
+                    <h2 class="text-blue-light">[10.84.0] - 2021-05-18</h2>
                     <h4>Changed</h4>
                     <ul>
-                        <li>Links in the themes module now use Bootstrap 5.1.3 (PR 789)</li>
+                        <li>Rename heat exchanger type 'lwc' to 'gphe' (#15051)<br><strong>Breaking Change:</strong> Use the heat exchanger type 'gphe' instead of 'lwc'. The heat exchanger type 'lwc' is no longer supported.</li>
+                        <li>Set default values when not set and change structure concerning construction (#15567)<br><strong>Breaking Change:</strong> Move heat_exchanger_type, heat_exchanger_name, price and base_price from hx to hx.construction in JSON structure.</li>
                     </ul>
                     <h4>Added</h4>
                     <ul>
-                        <li>Added autohide prop to Tooltip and Popover when using the hover trigger. When set to True, the Popover / Tooltip will hide if the mouse is moved over the content (PR 788)</li>
-                    </ul>
-                    <h4>Fixed</h4>
-                    <ul>
-                        <li>Popover with trigger hover will not dismiss if mouse is moved over the content (PR 788)</li>
-                        <li>Resolved bug where Tooltip could get stuck open when moused over quickly (PR 788)</li>
+                        <li>Add API function to download heat exchanger data (#15426)<br>Use new extension '.pwt' in GET /api/hx/<uuid>.pwt to download a file instead getting a JSON response.</li>
+                        <li>Add API function to load heat exchanger from file (#15431)<br>Use POST /api/hx with additional header 'Content-Type: application/pwt' and heat exchanger data in the request body to load from a file.</li>
                     </ul>
                 </div>
             </div>

@@ -207,21 +207,12 @@ info:
   version: 1.0.0
 externalDocs:
   description: API Changelog
-  url: https://developer.adakom.de/CHANGELOG.md
+  url: https://www.adakom.de/services/changelog.html
 
 servers:
   - url: 'https://nightly.adakom.de:3010'
     description: 'HX Service REST service'
-  - url: 'https://nightly.adakom.de:443'
-    description: 'Select PHE REST service'
-  - url: 'https://nightly.adakom.de:446'
-    description: 'Select PHE (Azure EU) REST service'
-  - url: 'https://nightly.adakom.de:447'
-    description: 'Select PHE (Azure US) REST service'
-  - url: 'https://nightly.adakom.de:444'
-    description: 'DTS REST service'
-  - url: 'http://localhost:3010'
-    description: 'Development REST service'
+
 tags:
   - name: Public
   - name: Authorization
