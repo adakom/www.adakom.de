@@ -64,17 +64,20 @@
             </div>
         </div>
     </section>
-    <section>
-
-                    <elements-api
-                            apiDescriptionUrl="./swagger.yaml"
-                            router="hash"
-                            layout="sidebar"
-                            hideInternal="true"
-                            hideExport="true"
-                            hideSchemas="true"
-                    />
-
+    <section class="mx-3 mx-xl-0 my-5 my-xl-0">
+        <elements-api
+                apiDescriptionUrl="./swagger.yaml"
+                router="hash"
+                hideInternal="true"
+                hideExport="true"
+                hideSchemas="true"
+        />
+        <script>
+            const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            const layout = width > 1200 ? 'sidebar' : 'stacked';
+            let elementsApi = document.querySelector('elements-api');
+            elementsApi.setAttribute('layout', layout);
+        </script>
     </section>
 </article>
 <footer id="footer">
