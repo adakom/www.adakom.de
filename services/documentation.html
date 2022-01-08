@@ -73,10 +73,15 @@
                 hideSchemas="true"
         />
         <script>
-            const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-            const layout = width > 1200 ? 'sidebar' : 'stacked';
-            let elementsApi = document.querySelector('elements-api');
-            elementsApi.setAttribute('layout', layout);
+            const updateDocumentation = function() {
+                const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                const layout = width > 1200 ? 'sidebar' : 'stacked';
+                let elementsApi = document.querySelector('elements-api');
+                elementsApi.setAttribute('layout', layout);
+            }
+            updateDocumentation();
+
+            window.addEventListener('resize', updateDocumentation);
         </script>
     </section>
 </article>
