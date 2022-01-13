@@ -69,6 +69,23 @@ a:focus {
     box-shadow: none !important;
 }
 
+ul.list-styled {
+    padding-left: 1rem;
+    list-style: none;
+}
+
+ul.list-styled li::before {
+    display: inline-block;
+    margin-left: -1em;
+    width: 1em;
+    font-weight: bold;
+    content: '\25a0';
+}
+ ul.list-styled.list-service-1 li::before {
+     color: #02a9a1;
+ }
+
+
 .w-125 {
     max-width: 125px;
 }
@@ -79,6 +96,30 @@ a:focus {
 
 .bg-blue-light {
     background-color: #009ee3;
+}
+
+.bg-service-1-dark {
+    background-color: #02a9a1;
+}
+
+.bg-service-1-light {
+    background-color: #c1e9e8;
+}
+
+.bg-service-2-dark {
+    background-color: #e51221;
+}
+
+.bg-service-2-light {
+    background-color: #f8c5c2;
+}
+
+.bg-service-3-dark {
+    background-color: #632c89;
+}
+
+.bg-service-3-light {
+    background-color: #d8cae1;
 }
 
 .text-blue-dark {
