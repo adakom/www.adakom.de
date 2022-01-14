@@ -164,6 +164,10 @@ ul.list-styled li::before {
     color: #009ee3;
 }
 
+.nav-link--normal {
+    text-transform: unset !important;
+}
+
 @media screen and (min-width: 992px) {
     .navbar {
         padding-top: 1.5rem;
