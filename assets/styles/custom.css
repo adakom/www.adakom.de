@@ -99,27 +99,27 @@ ul.list-styled li::before {
 }
 
 .bg-service-1-dark {
-    background-color: #02a9a1;
+    background-color: #136d67;
 }
 
 .bg-service-1-light {
-    background-color: #c1e9e8;
+    background-color: #b4d0cc;
 }
 
 .bg-service-2-dark {
-    background-color: #e51221;
+    background-color: #643668;
 }
 
 .bg-service-2-light {
-    background-color: #f8c5c2;
+    background-color: #d0c0cf;
 }
 
 .bg-service-3-dark {
-    background-color: #632c89;
+    background-color: #57524f;
 }
 
 .bg-service-3-light {
-    background-color: #d8cae1;
+    background-color: #cac1a9;
 }
 
 .text-blue-dark {
