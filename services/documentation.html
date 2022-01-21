@@ -51,142 +51,115 @@
     </script>
 </head>
 <body data-bs-spy="scroll" data-bs-offset="0" data-bs-target=".navbar-collapse" tabindex="0">
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
-    <div class="container flex-row">
-        <a class="navbar-brand fs-6" href="../" title="ADAKOM GmbH">
-            <span class="text-blue-dark text-uppercase">ADAKOM | </span><span class="d-lg-none"><br></span><span class="text-blue-light text-uppercase">Software &amp; engineering</span>
-        </a>
-        <button class="navbar-toggler border-0 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbar-collapse" class="collapse navbar-collapse justify-content-end">
-            <div class="navbar-nav navbar-nav-scroll">
-                <a class="nav-link nav-link--normal" href="/services/">Services</a>
-                <a class="nav-link nav-link--normal" href="/services/documentation.html">API Documentation</a>
-                <a class="nav-link nav-link--normal" href="/services/status.html">API Status</a>
-                <a class="nav-link nav-link--normal" href="/services/changelog.html">API Changelog</a>
-            </div>
-        </div>
-    </div>
-</nav>
-<article>
-    <section>
-        <div class="container pt-2 pb-5">
-            <div class="row">
-                <div class="col">
-                    <h2 class="mb-2 fw-bold text-blue-dark">Welcome in the world of heat exchanger services<br>for engineers and developers:<br>explore and try out.</h2>
-                    <h4 class="mb-0 text-blue-dark">Services to sell and configurate customer specific heat exchanger.</h4>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+        <div class="container flex-row">
+            <a class="navbar-brand fs-6" href="../" title="ADAKOM GmbH">
+                <span class="text-blue-dark text-uppercase">ADAKOM | </span><span class="d-lg-none"><br></span><span class="text-blue-light text-uppercase">Software &amp; engineering</span>
+            </a>
+            <button class="navbar-toggler border-0 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar-collapse" class="collapse navbar-collapse justify-content-end">
+                <div class="navbar-nav navbar-nav-scroll">
+                    <a class="nav-link nav-link--normal" href="/services/">Services</a>
+                    <a class="nav-link nav-link--normal" href="/services/documentation.html">API Documentation</a>
+                    <a class="nav-link nav-link--normal" href="/services/status.html">API Status</a>
+                    <a class="nav-link nav-link--normal" href="/services/changelog.html">API Changelog</a>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="mx-3 mx-xl-0 my-5 my-xl-0">
-        <elements-api
-                apiDescriptionUrl="https://developer.adakom.de/swagger_adakom.yaml"
-                router="hash"
-                hideInternal="true"
-                hideExport="true"
-                hideSchemas="true"
-        />
-        <script>
-            const updateDocumentation = function() {
-                const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-                const layout = width > 1200 ? 'sidebar' : 'stacked';
-                let elementsApi = document.querySelector('elements-api');
-                elementsApi.setAttribute('layout', layout);
+    </nav>
+    <article>
+        <section>
+            <div class="container pt-2 pb-5">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="mb-2 fw-bold text-blue-dark">Welcome in the world of heat exchanger services<br>for engineers and developers:<br>explore and try out.</h2>
+                        <h4 class="mb-0 text-blue-dark">Services to sell and configurate customer specific heat exchanger.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mx-3 mx-xl-0 my-5 my-xl-0">
+            <elements-api
+                    apiDescriptionUrl="https://developer.adakom.de/swagger_adakom.yaml"
+                    router="hash"
+                    hideInternal="true"
+                    hideExport="true"
+                    hideSchemas="true"
+            />
+            <script>
+                const updateDocumentation = function() {
+                    const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                    const layout = width > 1200 ? 'sidebar' : 'stacked';
+                    let elementsApi = document.querySelector('elements-api');
+                    elementsApi.setAttribute('layout', layout);
+                }
+                updateDocumentation();
+
+                window.addEventListener('resize', updateDocumentation);
+            </script>
+        </section>
+    </article>
+    <footer id="footer">
+        <div class="container mt-5">
+            <div class="row flex-md-wrap">
+                <div class="col-6 col-md">
+                    <h2 class="mb-3 text-blue-dark">Address</h2>
+                    <p>
+                        ADAKOM GmbH<br>
+                        Josef-Orlopp-Str. 38<br>
+                        10365 Berlin<br>
+                        Deutschland
+                    </p>
+                </div>
+                <div class="col-6 col-md">
+                    <h2 class="mb-3 text-blue-dark">eMail</h2>
+                    <p><a href="mailto:info@adakom.de">info@adakom.de</a></p>
+                </div>
+                <div class="col-6 col-md">
+                    <h2 class="mb-3 text-blue-dark">Phone</h2>
+                    <p><a href="tel:+493047032310">+49 (0) 30 47 03 2310</a></p>
+                </div>
+                <div class="col-6 col-md">
+                    <h2 class="mb-3 text-blue-dark">Telefax</h2>
+                    <p><a href="tel:+493047032316">+49 (0) 30 47 03 2316</a></p>
+                </div>
+                <div class="col-6 col-md">
+                    <h2 class="mb-3 text-blue-dark">Legal</h2>
+                    <p>
+                        <a href="../en/privacy-policy.html">Privacy Policy</a><br>
+                        <a href="../en/imprint.html">Imprint</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../vendor/jquery/dist/jquery.min.js"></script>
+    <script>
+        $('.nav-link').click(function(e) {
+            const divId = $(this).attr('href');
+            const offset = 106;
+            $('html, body').animate({
+                scrollTop: $(divId).offset().top - offset
+            }, 100);
+            const menuToggle = document.getElementById('navbar-collapse');
+            if (menuToggle.classList.contains('show')) {
+                const bsCollapse = new bootstrap.Collapse(menuToggle);
+                bsCollapse.toggle();
             }
-            updateDocumentation();
+            e.preventDefault();
+        });
+    </script>
 
-            window.addEventListener('resize', updateDocumentation);
-        </script>
-    </section>
-</article>
-<footer id="footer">
-    <div class="container mt-5">
-        <div class="row flex-md-wrap">
-            <div class="col-6 col-md">
-                <h2 class="mb-3 text-blue-dark">Address</h2>
-                <p>
-                    ADAKOM GmbH<br>
-                    Josef-Orlopp-Str. 38<br>
-                    10365 Berlin<br>
-                    Deutschland
-                </p>
-            </div>
-            <div class="col-6 col-md">
-                <h2 class="mb-3 text-blue-dark">eMail</h2>
-                <p><a href="mailto:info@adakom.de">info@adakom.de</a></p>
-            </div>
-            <div class="col-6 col-md">
-                <h2 class="mb-3 text-blue-dark">Phone</h2>
-                <p><a href="tel:+493047032310">+49 (0) 30 47 03 2310</a></p>
-            </div>
-            <div class="col-6 col-md">
-                <h2 class="mb-3 text-blue-dark">Telefax</h2>
-                <p><a href="tel:+493047032310">+49 (0) 30 47 03 2316</a></p>
-            </div>
-            <div class="col-6 col-md">
-                <h2 class="mb-3 text-blue-dark">Imprint</h2>
-                <p>
-                    General Manager:<br>
-                    Volker Brandt<br>
-                    Anja Stipp-George
-                </p>
-                <p>
-                    Amtsgericht Charlottenburg<br>
-                    HRB 68198
-                </p>
-                <p>
-                    VAT number:<br>
-                    DE 196587129
-                </p>
-                <p><a href="../en/privacy-policy.html">Privacy Policy</a></p>
-            </div>
-        </div>
-        <div class="row d-none">
-            <div class="col">
-                <img src="../assets/images/berlin.svg" class="w-100" alt="Berlin">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h2 class="mt-3 mb-3 text-blue-dark">Disclaimer</h2>
-                <p>We do not guarantee that the information provided on this website is complete, correct and up-to-date at all times.</p>
-                <p>Despite careful control of the contents, we do not accept any liability for the content of external links. We have no influence on the current and future design of the linked pages. We hereby expressly dissociate ourselves from any and all changes made to the content of these aforementioned pages. The content of the linked pages is the sole responsibility of their operators.</p>
-                <p>We reserve the right to make changes or additions to the information provided without prior notice.</p>
-                <p>We strive to comply with applicable copyright laws in all publications. If, however, a copyright infringement occurs, we will remove the relevant object from its publication upon notification or comply with the copyright.</p>
-                <p>All brand names and trademarks mentioned on the website, including third-party trademarks, are subject without restriction to the provisions of the respectively valid trademark law and the rights of ownership of the respective registered owners.</p>
-                <p>This notice of liability is to be considered as part of ADAKOM GmbH's website. The statements made here apply without limitation and expressly to the domains http://www.adakom.de, https://www.adakom.com, https://www.adakom.net and https://www.adakom.org . If sections or individual terms of this statement are not legal or correct, the content or validity of the other parts remain uninfluenced by this fact.</p>
-                <p>COPYRIGHT 2022 / ADAKOM GMBH
-            </div>
-        </div>
-    </div>
-</footer>
-<script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../vendor/jquery/dist/jquery.min.js"></script>
-<script>
-    $('.nav-link').click(function(e) {
-        const divId = $(this).attr('href');
-        const offset = 106;
-        $('html, body').animate({
-            scrollTop: $(divId).offset().top - offset
-        }, 100);
-        const menuToggle = document.getElementById('navbar-collapse');
-        if (menuToggle.classList.contains('show')) {
-            const bsCollapse = new bootstrap.Collapse(menuToggle);
-            bsCollapse.toggle();
-        }
-        e.preventDefault();
-    });
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MFH6NFP');</script>
-<!-- End Google Tag Manager -->
-<script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="wgArU3uG2" async></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MFH6NFP');</script>
+    <!-- End Google Tag Manager -->
+    <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="wgArU3uG2" async></script>
 </body>
 </html>
