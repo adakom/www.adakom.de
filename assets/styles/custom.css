@@ -162,6 +162,7 @@ ul.list-styled li::before {
 .navbar-brand {
     font-size: 1rem;
     line-height: 125%;
+    letter-spacing: 2px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
