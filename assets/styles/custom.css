@@ -81,9 +81,18 @@ ul.list-styled li::before {
     font-weight: bold;
     content: '\25a0';
 }
- ul.list-styled.list-service-1 li::before {
-     color: #02a9a1;
- }
+
+ul.list-styled.list-service-1 li::before {
+    color: #136d67;
+}
+
+ul.list-styled.list-service-2 li::before {
+    color: #643668;
+}
+
+ul.list-styled.list-service-3 li::before {
+    color: #57524f;
+}
 
 .link-secondary {
     font-weight: 600;
