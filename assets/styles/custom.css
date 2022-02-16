@@ -317,6 +317,16 @@ ul.list-styled.list-service-3 li::before {
     background-color: #ffffff;
 }
 
+/* Service card */
+#services .card h4 a {
+    color: #ffffff;
+}
+
+#services .card h4 a:hover,
+#services .card h4 a:focus {
+    color: #ffffff;
+}
+
 /* Services */
 body.services {
     margin: 0;
@@ -330,7 +340,7 @@ body.services .services-wrapper {
     background-color: #ffffff;
 }
 
-body.services h1  {
+body.services h1 {
     font-weight: 600;
     text-align: left;
 }
