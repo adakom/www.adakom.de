@@ -116,6 +116,10 @@ ul.list-styled.list-service-3 li::before {
     border-bottom-color: #5c6a78;
 }
 
+.link-secondary.link-text-service-5-dark {
+    border-bottom-color: #477628;
+}
+
 .w-125 {
     max-width: 125px;
 }
@@ -158,6 +162,14 @@ ul.list-styled.list-service-3 li::before {
 
 .bg-service-4-light {
     background-color: #b3bcc5;
+}
+
+.bg-service-5-dark {
+    background-color: #477628;
+}
+
+.bg-service-5-light {
+    background-color: #d4dbc7;
 }
 
 .text-blue-dark {
