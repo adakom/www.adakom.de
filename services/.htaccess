@@ -1,6 +1,6 @@
 AuthType Basic
 AuthName "Passwortgeschützter Bereich"
-AuthUserFile /kunden/homepages/21/d4295954087/services/.htpasswd
+AuthUserFile /kunden/homepages/21/d4295954087/htdocs/services/.htpasswd
 
 <Files "documentation.html">
       Require user API
