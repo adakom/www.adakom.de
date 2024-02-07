@@ -94,6 +94,28 @@ ul.list-styled.list-service-3 li::before {
     color: #57524f;
 }
 
+.btn-outline-primary {
+    color: #009ee3;
+    border-color: #009ee3;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #009ee3;
+    border-color: #009ee3;
+}
+
+.btn-outline-secondary {
+    color: #88be31;
+    border-color: #88be31;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #88be31;
+    border-color: #88be31;
+}
+
 .link-secondary {
     font-weight: 600;
     color: #000;
@@ -192,6 +214,10 @@ ul.list-styled.list-service-3 li::before {
     color: #d0c0cf;
 }
 
+.text-hyphens {
+    hyphens: auto;
+}
+
 .border-bottom-dotted-dark-blue {
     border-bottom: 2px dotted #004994 !important;
 }
@@ -267,6 +293,32 @@ ul.list-styled.list-service-3 li::before {
         background-size: contain;
         background-position-x: right;
     }
+}
+
+.swiper {
+    padding-bottom: 30px;
+}
+
+.swiper.swiper-projects:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    background: linear-gradient(to left,#fff0,#fff);
+    z-index: 2;
+    content: "";
+}
+
+.swiper.swiper-projects:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 100%;
+    background: linear-gradient(to left, #fff, #fff0);
+    z-index: 2;
+    content: "";
 }
 
 .timeline {

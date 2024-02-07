@@ -13,6 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.adakom.de">
     <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendor/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../assets/styles/custom.css">
     <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../assets/images/icons/apple-icon-60x60.png">
@@ -80,6 +81,62 @@
                 </div>
             </div>
         </section>
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="h2 mt-5 text-blue-light">Last finished projects</h1>
+                    </div>
+                </div>
+                <div class="swiper swiper-projects">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide text-center">
+                            <a href="../assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.pdf" target="_blank"><img src="../assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.svg" width="150" height="150" alt=""></a><br>
+                            <strong>Airdryer</strong><br>
+                            <p>Expansion of the CPQ tool to include additional construction variants, design codes, strength calculations, optimization procedures, site-specific price calculations and parts lists</p>
+                            <a href="../assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.pdf" target="_blank">Read more...</a>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <a href="../assets/pdf/Project-Reference-Kelvion-DTS-EN.pdf" target="_blank"><img src="../assets/pdf/Project-Reference-Kelvion-DTS-DE.svg" width="150" height="150" alt=""></a><br>
+                            <strong>Double tube safety heat exchanger</strong><br>
+                            <p>Development of a configurator, Integrated GUI interface for thermodynamics, strength calculation, integrated releated product structure, creation of dimensional technical documents</p>
+                            <a href="../assets/pdf/Project-Reference-Kelvion-DTS-EN.pdf" target="_blank">Read more...</a>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank"><img src="../assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.svg" width="150" height="150" alt=""></a><br>
+                            <strong>Order Requirements</strong><br>
+                            <p>Implementation of a workflow for the handling of special additional requirements for PHE such as coating, calculations, documentation, inspections, shipping, accessories, etc.</p>
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank">Read more...</a>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Print-API-Configurator-DE.pdf" target="_blank"><img src="../assets/pdf/Project-Reference-Kelvion-Print-API-Configurator-DE.svg" width="150" height="150" alt=""></a><br>
+                            <strong>Print API</strong><br>
+                            <p>Development of a document generation API for efficient document generation for technical documents, offers, orders, manufacturing documents</p>
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank">Read more...</a>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Konfigurator-DE.pdf" target="_blank"><img src="../assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Configurator-DE.svg" width="150" height="150" alt=""></a><br>
+                            <strong>Flow Scheme Configurator</strong><br>
+                            <p>Development of an API and GUI for configuration and displaying the flow scheme for plate heat exchangers in the sales department inclusive mulitstage units</p>
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Konfigurator-DE.pdf" target="_blank">Read more...</a>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Select-PHE-EN.pdf" target="_blank"><img src="../assets/pdf/Project-Reference-Kelvion-Select-PHE-DE.svg" width="150" height="150" alt=""></a><br>
+                            <strong>Select PHE</strong><br>
+                            <p>Development of an API for the design of plate heat exchangers on the web, OPEN API, integration in global sales and engineering landscapes</p>
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Select-PHE-EN.pdf" target="_blank">Read more...</a>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank"><img src="../assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.svg" width="150" height="150" alt=""></a><br>
+                            <strong>Service Configurator</strong><br>
+                            <p>Development of a workflow for handling the service business for plate heat exchangers inclusive services on site, servicecenter, sparepart list, travelplaning for service staff</p>
+                            <a href="../assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank">Read more...</a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
         <section id="portfolio">
             <div class="container">
                 <div class="row">
@@ -88,7 +145,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 mb-4">
+                    <div class="col-12 col-md-4 mb-4">
                         <div class="card pb-3 h-100 border-0 border-bottom-dotted-light-blue">
                             <div class="row g-0">
                                 <div class="col-3">
@@ -96,31 +153,17 @@
                                 </div>
                                 <div class="col-9">
                                     <div class="card-body">
-                                        <h5 class="card-title text-blue-light">Individually fitted software for manufacturers</h5>
-                                        <p class="card-text">We deliver you software for the design and configuration for various heat exchanger types.</p>
+                                        <h5 class="card-title text-blue-light">Design software for manufacturers</h5>
+                                        <p class="card-text">
+                                            Tailor-made software solutions and web-based services for the design of your heat exchangers. These solutions are integrated into your software landscape and workflows.<br>
+                                            <a href="https://hx-online-configurator.adakom.de/process-selection" target="_blank" class="btn btn-outline-primary mt-3">Show demo</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mb-4">
-                        <div class="card pb-3 h-100 border-0 border-bottom-dotted-light-blue">
-                            <div class="row g-0">
-                                <div class="col-3">
-                                    <img src="../assets/images/icon-interfaces.svg" class="img-fluid rounded-start" alt="Icon Interfaces">
-                                </div>
-                                <div class="col-9">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-blue-light">Interfaces</h5>
-                                        <p class="card-text">We provide interfaces via REST API for your internal and external services in order to optimize, configure and calculate your heat exchanger.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 mb-4">
+                    <div class="col-12 col-md-4 mb-4">
                         <div class="card pb-3 h-100 border-0 border-bottom-dotted-light-blue">
                             <div class="row g-0">
                                 <div class="col-3">
@@ -128,28 +171,35 @@
                                 </div>
                                 <div class="col-9">
                                     <div class="card-body">
-                                        <h5 class="card-title text-blue-light">Thermohydraulic modelbuilding</h5>
-                                        <p class="card-text">We develop models to simulate the thermodynamic and hydraulics of your heat exchangers according to the latest scientific findings.</p>
+                                        <h5 class="card-title text-blue-light">Thermohydraulic modeling</h5>
+                                        <p class="card-text">
+                                            Develop models for you to describe the behavior of fluid flows and heat transfer processes within your heat exchangers according to the latest scientific findings.
+                                            <a href="https://www.adakom.de/services/calibration-thermal-calculation.html" target="_blank" class="btn btn-outline-primary mt-3">Read more</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mb-4">
+                    <div class="col-12 col-md-4 mb-4">
                         <div class="card pb-3 h-100 border-0 border-bottom-dotted-light-blue">
                             <div class="row g-0">
                                 <div class="col-3">
-                                    <img src="../assets/images/icon-konfiguration.svg" class="img-fluid rounded-start" alt="Icon Konfiguration">
+                                    <img src="../assets/images/icon-interfaces.svg" class="img-fluid rounded-start" alt="Icon Interfaces">
                                 </div>
                                 <div class="col-9">
                                     <div class="card-body">
-                                        <h5 class="card-title text-blue-light">Online configuration</h5>
-                                        <p class="card-text">Based on your product data we can configure your heat exchanger online.</p>
+                                        <h5 class="card-title text-blue-light">Rest Interfaces</h5>
+                                        <p class="card-text">
+                                            Provide a RESTful API that enables you, as a heat exchanger manufacturer, to offer your customers seamless integration into their own systems and processes, which can improve efficiency and increase customer satisfaction.<br>
+                                            <a href="https://www.adakom.de/services/" target="_blank" class="btn btn-outline-primary mt-3">Read more</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div class="row">
                     <div class="col-lg-8 mt-2 mb-3 text-center">
@@ -166,7 +216,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 mb-4">
+                    <div class="col-12 col-md-4 mb-4">
                         <div class="card pb-3 h-100 border-0 border-bottom-dotted-green">
                             <div class="row g-0">
                                 <div class="col-3">
@@ -174,14 +224,17 @@
                                 </div>
                                 <div class="col-9">
                                     <div class="card-body">
-                                        <h5 class="card-title text-green">Measurement and Optimization</h5>
-                                        <p class="card-text">We calculate the target condition of the heat exchanger in operation and simulate different load cases. We use this to make predictions about the operating condition and fouling state so that you can take measures at the right time.</p>
+                                        <h5 class="card-title text-green">Measurement & optimization</h5>
+                                        <p class="card-text">
+                                            Ensure the long-term performance and reliability of your heat exchanger during operation. This includes energy savings, extending the service life and minimizing downtimes.<br>
+                                            <a href="https://www.adakom.de/assets/pdf/Adakom-White-Paper-Measurements.pdf" target="_blank" class="btn btn-outline-secondary mt-3">Read more</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mb-4">
+                    <div class="col-12 col-md-4 mb-4">
                         <div class="card pb-3 h-100 border-0 border-bottom-dotted-green">
                             <div class="row g-0">
                                 <div class="col-3">
@@ -189,16 +242,17 @@
                                 </div>
                                 <div class="col-9">
                                     <div class="card-body">
-                                        <h5 class="card-title text-green">Energy Efficency</h5>
-                                        <p class="card-text">We consider the energy-efficient and smart heat exchanger as the future and analyze savings potentials together with you.</p>
+                                        <h5 class="card-title text-green">Monitoring</h5>
+                                        <p class="card-text">
+                                            Scoring for heat exchangers in operation as a function as a service or stand-alone web solution for the efficiency and performance of your devices in operation.<br>
+                                            <a href="https://hx-online-configurator.adakom.de" target="_blank" class="btn btn-outline-secondary mt-3">Show demo</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 mb-4">
+                    <div class="col-12 col-md-4 mb-4">
                         <div class="card pb-3 h-100 border-0 border-bottom-dotted-green">
                             <div class="row g-0">
                                 <div class="col-3">
@@ -206,8 +260,11 @@
                                 </div>
                                 <div class="col-9">
                                     <div class="card-body">
-                                        <h5 class="card-title text-green">Calculation</h5>
-                                        <p class="card-text">We calculate the steady and current state of your heat exchangers.</p>
+                                        <h5 class="card-title text-green">Simulation</h5>
+                                        <p class="card-text">
+                                            The target state of the heat exchanger in operation and the simulation of different load cases helps you to make predictions about the operating state and fouling state of your devices.<br>
+                                            <a href="https://hx-online-configurator.adakom.de" target="_blank" class="btn btn-outline-secondary mt-3">Show demo</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -349,10 +406,10 @@
                 <div class="row mb-3 pb-3 border-bottom-dotted-dark-blue">
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/hersteller/gea.svg" height="70" class="w-125" alt="GEA"></div>
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/hersteller/kelvion.svg" height="70" class="w-125" alt="Kelvion"></div>
+                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/hersteller/funke.svg" class="w-100" alt="Funke"></div>
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/hersteller/wcr.png" class="w-100" alt="WCR"></div>
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/hersteller/wegmann.png" class="w-100" alt="Wegmann"></div>
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/hersteller/gesmex.png" class="w-100" alt="GESMEX"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/hersteller/heatex.png" class="w-100" alt="HEATEX"></div>
                 </div>
                 <div class="row mt-5 mb-3">
                     <div class="col">
@@ -377,7 +434,6 @@
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/forschung/vdi.svg" height="70" class="w-125" alt="VDI"></div>
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/forschung/energiewende.png" class="w-100" alt="Energiewende"></div>
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/forschung/htw-berlin.svg" height="70" class="w-125" alt="HTW Berlin"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/forschung/bmwi.svg" height="70" class="w-125" alt="BMWI"></div>
                     <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="../assets/images/referenzen/forschung/nivex.png" class="w-100" alt="NivEX"></div>
                 </div>
                 <div class="row mt-5 mb-3">
@@ -441,6 +497,7 @@
     </footer>
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="../vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
     <script>
         $('.nav-link').click(function(e) {
             const divId = $(this).attr('href');
@@ -454,6 +511,32 @@
                 bsCollapse.toggle();
             }
             e.preventDefault();
+        });
+
+        const swiper = new Swiper('.swiper-projects', {
+            direction: 'horizontal',
+            centeredSlides: true,
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 10,
+            breakpoints: {
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
+                }
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
         });
     </script>
 
