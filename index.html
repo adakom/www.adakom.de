@@ -13,7 +13,6 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.adakom.de">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/styles/custom.css">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/images/icons/apple-icon-60x60.png">
@@ -33,475 +32,432 @@
     <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 </head>
-<body data-bs-spy="scroll" data-bs-offset="0" data-bs-target=".navbar-collapse" tabindex="0">
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
-        <div class="container">
-            <a class="navbar-brand" href="./" title="ADAKOM GmbH">
-                <span class="text-blue-dark text-uppercase">ADAKOM</span> <span class="d-lg-none"><br></span><span class="text-blue-light text-uppercase">Software &amp; engineering</span>
-            </a>
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue-dark">
+        <div class="container position-relative">
             <button class="navbar-toggler border-0 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a href="/en" class="d-lg-none position-absolute text-white" style="top: 11px; left: 50px; font-size: 11px;">Englisch</a>
+            <a class="navbar-brand" href="./" title="ADAKOM GmbH">
+                <span class="text-uppercase text-white ">ADAKOM</span> <span class="d-lg-none"><br></span><span class="text-uppercase text-light-blue">Software &amp; engineering</span>
+            </a>
             <div id="navbar-collapse" class="collapse navbar-collapse">
                 <div class="navbar-nav navbar-nav-scroll">
-                    <a class="nav-link" href="#leistungen">Leistungen</a>
-                    <a class="nav-link" href="#unternehmen">Unternehmen</a>
-                    <a class="nav-link" href="#referenzen">Referenzen</a>
-                    <a class="nav-link" href="#jobs">Jobs</a>
-                    <a class="nav-link" href="#footer">Kontakt</a>
-                    <a class="nav-link" href="/en/">Englisch</a>
+                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#projects">Projekte</a>
+                    <a class="nav-link" href="#company">Unternehmen</a>
+                    <a class="nav-link" href="#contact">Ansprechpartner</a>
+                    <a class="nav-link d-none d-lg-block" href="/en/">Englisch</a>
                 </div>
             </div>
         </div>
     </nav>
-    <article>
-        <section id="header" class="bg-blue-dark">
-            <div class="container pt-5 pb-5">
+
+    <article data-bs-spy="scroll" data-bs-offset="0" data-bs-target="#navbar-collapse" data-bs-smooth-scroll="true" tabindex="0">
+        <section id="header">
+            <div class="container pt-5 mb-5 mb-sm-0">
                 <div class="row">
-                    <div class="col-12 col-md-8">
-                        <h3 class="mb-4 text-white">Durch die Integration Ihrer Wärmeübertrager in IT-Lösungen können Sie nicht nur technische Vertriebsprozesse optimieren, sondern auch die Effizienz steigern, die Produktleistung verbessern und den Kundenservice stärken.</h3>
-                        <h5 class="mb-0 text-white">Wir sind Experten für Ihre Wärmeübertrager IT-Lösungen.</h5>
+                    <div class="col-12 col-lg-8">
+                        <h1>Komplexe Thermodynamik und Produktkonfiguration – einfach gemacht.</h1>
+                        <h3 class="mb-0">Engineering-Software für Hersteller von Wärmeübertragern – mit Fokus auf Thermodynamik, Datenlogik und Benutzerfreundlichkeit.</h3>
+                    </div>
+                </div>
+                <div class="row mt-4 mt-sm-0">
+                    <div class="col-12">
+                        <picture>
+                            <source srcset="assets/images/services.svg" media="(min-width: 576px)">
+                            <img src="assets/images/services_mobile.svg" class="w-100" alt="Services" />
+                        </picture>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="projekte">
+
+        <section id="services">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-5 mb-md-0 d-flex flex-column align-items-center justify-content-center ">
+                        <p class="text-center text-xl">unendliche<br />Einsatzmöglichkeiten</p>
+                        <p class="text-center"><img src="assets/images/icon-plus.svg" width="70" height="70" alt="Plus" /></p>
+                        <p class="text-center text-xl">individuelle<br />Produktlösungen</p>
+                        <p class="text-center"><img src="assets/images/icon-equal.svg" width="70" height="70" alt="Equal" /></p>
+                        <p class="text-center text-xl mb-0">Adakom Seruice<br />einfach gemacht</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h2 class="d-none d-md-block">Services</h2>
+                        <h4 class="mb-0">Produktkonfiguration</h4>
+                        <h5 class="fw-normal">Maßgeschneidert statt Standard.</h5>
+                        <p>Unsere Software legt den Wärmeübertrager herstellerspezifisch mit allen technischen Vorgaben aus – schnell, präzise und regelkonform. Sie denkt in Varianten, Standards und Grenzen – und liefert optimale Lösungen auf einen Blick.</p>
+                        <h4 class="mb-0">Preiskalkulation</h4>
+                        <h5 class="fw-normal">Komplexe Kosten. Klar strukturiert.</h5>
+                        <p>Unsere dynamische Kalkulation berücksichtigt alle Einzelteile, Materialien und Varianten – inklusive aktueller Daten. So erhalten Sie automatisch eine nachvollzierhbare Preisübersicht.</p>
+                        <h4 class="mb-0">Angebotserstellung</h4>
+                        <h5 class="fw-normal">Ein Klick. Ein komplettes Dokument.</h5>
+                        <p>Aus technischen und kaufmännischen Daten wird automatisch ein vollständiges Angebot als Word-Datei oder PDF. Keine Copy-Paste-Fehler, kein Zeituerlust.
+                        <h4 class="mb-0">Integrationsservice</h4>
+                        <h5 class="fw-normal">Mehr Fokus. Weniger Klicken.</h5>
+                        <p>Unsere Services fügen wir direkt in Ihre bestehenden CRM- und ERP-Systeme ein - ohne Systembruch zur Weblösung.</p>
+                        <h4 class="mb-0">Beratung zu Engineeringaufgaben</h4>
+                        <h5 class="fw-normal">Technische Tiefe. Echte Beratung.</h5>
+                        <p>Sie haben eine spezielle Anforderung und um das Thema Wärmeübertrager? Wir hören zu, denken mit und liefern fundierte Antworten auf Ihre technischen Fragen.</p>
+                        <h4 class="mb-0">Wärmeübertrager im Betrieb (Digitaler Zwilling)</h4>
+                        <h5 class="fw-normal">Transparenz in Echtzeit.</h5>
+                        <p>Auf Grundlage Ihrer Daten bilden wir den Wärmeübertrager digital ab. Über unseren Webservice erhalten Sie eine Bewertung zum Zustand bzw. die aktuelle Performance Ihres Wärmeübertragers – individuell berechnet auf Basis Ihrer Prozessdaten.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container mb-5">
+                <div class="row mb-5">
+                    <div class="col-12 col-lg-8">
+                        <h2>Unsere Projekte</h2>
+                        <p class="text-sm">
+                            <strong>Standardisiert denken. Individuell lösen.</strong><br>
+                            Unsere Projekte bewegen sich stets im Spannungsfeld zwischen Norm und Maßanfertigung – genau darin liegt unsere Stärke. Ob Konfigurator, Preiskalkulation oder digitaler Zwilling: Wir entwickeln modulare Tools, die sich präzise anpassen lassen.
+                        </p>
+                        <p class="mb-0 text-sm">Mehr als 25 Jahre Erfahrung zeigen: Komplexe Anforderungen lassen sich mit Übersicht und technischer Tiefe lösen.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="accordion" id="accordion">
+                            <div class="accordion-item mb-3">
+                                <h6 class="accordion-header" id="accordion-header-1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1" aria-expanded="false" aria-controls="accordion-collapse-1">
+                                        Select PHE – Webintegration für Plattenwärmetauscher
+                                    </button>
+                                </h6>
+                                <div id="accordion-collapse-1" class="accordion-collapse collapse" aria-labelledby="accordion-header-1">
+                                    <div class="accordion-body">
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <a href="assets/pdf/Project-Reference-Kelvion-Select-PHE-EN.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-Select-PHE-DE.svg" width="125" height="125" alt=""></a>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <p>Webbasierte API zur Auslegung von Plattenwärmetauschern – vollständig integrierbar in globale Vertriebs- und Engineeringprozesse.</p>
+                                                <p class="mb-0"><a href="assets/pdf/Project-Reference-Kelvion-Select-PHE-EN.pdf" target="_blank">» Mehr erfahren</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h6 class="accordion-header" id="accordion-header-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2" aria-expanded="false" aria-controls="accordion-collapse-2">
+                                        Spezialanforderungen per Konfigurator abbilden
+                                    </button>
+                                </h6>
+                                <div id="accordion-collapse-2" class="accordion-collapse collapse" aria-labelledby="accordion-header-2">
+                                    <div class="accordion-body">
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <a href="assets/pdf/Project-Reference-Kelvion-OR-PHE-EN.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-OR-PHE-DE.svg" width="125" height="125" alt=""></a>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <p>Ein Workflow für die Abwicklung individueller Kundenwünsche – z. B. Beschichtungen, Prüfungen, Versand oder Zubehör. Direkt im System eingebettet und angebotsfähig.</p>
+                                                <p class="mb-0"><a href="assets/pdf/Project-Reference-Kelvion-OR-PHE-EN.pdf" target="_blank">» Mehr erfahren</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h6 class="accordion-header" id="accordion-header-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3" aria-expanded="false" aria-controls="accordion-collapse-3">
+                                        Schaltplankonfigurator für komplexe Apparate
+                                    </button>
+                                </h6>
+                                <div id="accordion-collapse-3" class="accordion-collapse collapse" aria-labelledby="accordion-header-3">
+                                    <div class="accordion-body">
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <a href="assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Konfigurator-DE.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Configurator-DE.svg" width="125" height="125" alt=""></a>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <p>Darstellung und Konfiguration von Schaltplänen für Plattenwärmeübertrager. Ein einfach bedienbares digitales Tool – speziell für den Vertrieb mehrstufiger Systeme.</p>
+                                                <p class="mb-0"><a href="assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Konfigurator-DE.pdf" target="_blank">» Mehr erfahren</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h6 class="accordion-header" id="accordion-header-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-4" aria-expanded="false" aria-controls="accordion-collapse-4">
+                                        Automatisierte Dokumentengenerierung per API
+                                    </button>
+                                </h6>
+                                <div id="accordion-collapse-4" class="accordion-collapse collapse" aria-labelledby="accordion-header-4">
+                                    <div class="accordion-body">
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <a href="assets/pdf/Project-Reference-Kelvion-Print-API-Configurator-DE.svg" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-Print-API-Configurator-DE.svg" width="125" height="125" alt=""></a>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <p>Ob Angebot, Auftrag oder Fertigungsdokument. Mit unserer API entstehen vollständige Dokumente direkt aus der Anwendung – effizient, zuverlässig, formatgetreu.</p>
+                                                <p class="mb-0"><a href="assets/pdf/Project-Reference-Kelvion-Print-API-Configurator-DE.pdf" target="_blank">» Mehr erfahren</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h6 class="accordion-header" id="accordion-header-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-5" aria-expanded="false" aria-controls="accordion-collapse-5">
+                                        Doppelrohrkonfigurator für Sicherheitswärmetauscher
+                                    </button>
+                                </h6>
+                                <div id="accordion-collapse-5" class="accordion-collapse collapse" aria-labelledby="accordion-header-5">
+                                    <div class="accordion-body">
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <a href="assets/pdf/Project-Reference-Kelvion-DTS-EN.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-DTS-DE.svg" width="125" height="125" alt=""></a>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <p>Entwicklung eines modularen Tools – integnierte Benutzeroberfläche für Thermodynamik, Festigkeit und technische Unterlagen. Maßskizzen und Dokumentation inklusive.</p>
+                                                <p class="mb-0"><a href="assets/pdf/Project-Reference-Kelvion-DTS-EN.pdf" target="_blank">» Mehr erfahren</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h6 class="accordion-header" id="accordion-header-6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-6" aria-expanded="false" aria-controls="accordion-collapse-6">
+                                        Produktkonfigurator für Single Tube Heat Exchangers
+                                    </button>
+                                </h6>
+                                <div id="accordion-collapse-6" class="accordion-collapse collapse" aria-labelledby="accordion-header-6">
+                                    <div class="accordion-body">
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <a href="assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.svg" width="125" height="125" alt=""></a>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <p>Erweiterung eines bestehenden CPO Tools - zusätzliche Bauvarianten, Auslegungscodes und Standortlogiken. Integrierte Thermodynamik – und Festigkeitsberechnungen + automatische  Stücklistengenerierung.</p>
+                                                <p class="mb-0"><a href="assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.pdf" target="_blank">» Mehr erfahren</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="company">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col">
+                      <h2>Unternehmen</h2>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-12 col-md-6">
+                        <p class=" mb-0 text-sm">
+                            Wir setzen auf moderne, performante Technologie-Stacks in der Microsoft Azure Cloud, kombiniert mit bewährter Systemnähe durch C++ und der Flexibilität von C#. Unsere Lösungen verbinden die Effizienz nativer Anwendungen mit der Skalierbarkeit und Sicherheit moderner Cloud-Architekturen.<br />
+                            Durch die Nutzung uon Azure-Diensten wie Azure VMs, Databases, App Seruices und Azure DeuOps schaffen wir robuste, hochuerfügbare Anwendungen - uon der Systemintegration bis hin zu komplexen Backend Seruices.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="mb-0 text-sm">
+                            C++ kommt dabei vor allem in Performance-kritischen Bereichen zum Einsatz während C# unsere beuorzugte Sprache für Cloud-APIs, Seruices und Automatisierung ist.<br />
+                            So entstehen zukunftssichere, wartbare und skalierbare Lösungen - maßgeschneidert für die Anforderungen unserer Kunden.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0 text-center">
+                        <h4>Thermodynamik,<br />präzise integriert</h4>
+                        <p><img src="assets/images/icon-hat.svg" width="150" height="150" alt="Hat"></p>
+                        <p class="mb-0 text-sm">Wir verbinden tiefes thermodynamisches Know-how mit intelligenter Software.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0 text-center">
+                        <h4>Smarte IT trifft<br />Ingenieurskunst</h4>
+                        <p><img src="assets/images/icon-rocket.svg" width="150" height="150" alt="Rocket"></p>
+                        <p class="mb-0 text-sm">Unsere Anwendungen entstehen für und mit Entwickler:innen von Wärmeübertragern.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0 text-center">
+                        <h4>Mitdenken ist<br />Teil der Lösung</h4>
+                        <p><img src="assets/images/icon-bulb.svg" width="150" height="150" alt="Bulb"></p>
+                        <p class="mb-0 text-sm">Unsere Innovationen sind nutzerzentriert, mit vorausschauendem Blick.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-md-0 text-center">
+                        <h4>Iterationen<br />statt Illusionen </h4>
+                        <p><img src="assets/images/icon-circle.svg" width="150" height="150" alt="Circle"></p>
+                        <p class="mb-0 text-sm">Schnelle Entscheidungen und kurze Zyklen bringen uns ans Ziel – nicht langes Zögern.</p>
+                    </div>
+                </div>
+                <div class="row d-none">
+                    <div class="col-12">
+                        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row d-flex flex-column flex-md-row">
+                                        <div class="col-12 col-md-4 text-center text-md-center">
+                                            <img src="assets/images/icon-hat.svg" height="250" class="d-block w-100 mb-5" alt="Hat">
+                                        </div>
+                                        <div class="col-12 col-md-8 align-self-end text-center text-md-start">
+                                            <p class="mb-0 text-lg">Thermodynamik, präzise integriert: Wir verbinden tiefes thermodynamisches Know-how mit intelligenter Software.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row d-flex flex-column flex-md-row">
+                                        <div class="col-12 col-md-4 text-center text-md-center">
+                                            <img src="assets/images/icon-rocket.svg" height="250" class="d-block w-100 mb-5" alt="Rocket">
+                                        </div>
+                                        <div class="col-12 col-md-8 align-self-end text-center text-md-start">
+                                            <p class="mb-0 text-lg">Smarte IT trifft Ingenieurskunst: Unsere Anwendungen entstehen für und mit Entwicklern von Wärmeübertragern.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row d-flex flex-column flex-md-row">
+                                        <div class="col-12 col-md-4 text-center text-md-center">
+                                            <img src="assets/images/icon-bulb.svg" height="250" class="d-block w-100 mb-5" alt="Bulb">
+                                        </div>
+                                        <div class="col-12 col-md-8 align-self-end text-center text-md-start">
+                                            <p class="mb-0 text-lg">Mitdenken ist Teil der Lösung: Unsere Innovationen sind nutzerzentriert, mit vorausschauendem Blick.</p>
+                                        </div>
+                                    </div>
+                               </div>
+                                <div class="carousel-item">
+                                    <div class="row d-flex flex-column flex-md-row">
+                                        <div class="col-12 col-md-4 text-center text-md-center">
+                                            <img src="assets/images/icon-circle.svg" height="250" class="d-block w-100 mb-5" alt="Circle">
+                                        </div>
+                                        <div class="col-12 col-md-8 align-self-end text-center text-md-start">
+                                            <p class="mb-0 text-lg">Iterationen statt Illusionen: Schnelle Entscheidungen und kurze Zyklen bringen uns ans Ziel – nicht langes Zögern.</p>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col">
+                        <h2>Ansprechpartner</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-6 mb-5 mb-md-0">
+                        <p class="mb-0 text-sm"><strong>Ihre Fragen. Unser Einstieg.</strong></p>
+                        <div class="h-100 d-none d-lg-flex flex-column flex-grow-1 justify-content-center align-items-center">
+                            <a href="tel:+493047032310" class="btn btn-outline-light btn-lg" style="width: 160px;">Anruf</a>
+                            <br />&nbsp;<br />
+                            <a href="mailto:anja.stipp-george@adakom.de" class="btn btn-outline-light btn-lg" style="width: 160px;">E-Mail</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-md-0">
+                        <p><img src="assets/images/anja-stipp-george.jpg" class="w-100" alt="Anja Stipp-George"  /></p>
+                        <strong>Anja Stipp-George</strong>
+                        <p>
+                            Anja Stipp-George ist als Geschäftsführerin Ihre Ansprechpartnerin für kaufmännische und organisatorische Fragen.<br />
+                            Kontaktieren Sie Anja Stipp-George direkt per Mail, LinkedIn oder Telefon und erhalten Sie auf Wunsch Zugang zu unseren Demo-Tools.
+                        </p>
+                        <hr />
+                        <p class="mb-4">
+                            Telefon:<br>
+                            <a href="tel:+493047032310">+49 (0) 30 47 03 23 10</a>
+                        </p>
+                        <p>
+                            E-Mail:<br>
+                            <a href="mailto:anja.stipp-george@adakom.de">anja.stipp-george@adakom.de</a>
+                        </p>
+                        <p>
+                            <a href="https://www.linkedin.com/in/anja-stipp-george/" target="blank"><img src="assets/images/InBug-White.png" width="30" alt="LinkedIn" /></a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <p><img src="assets/images/volker-brandt.jpg" class="w-100" alt="Volker Brandt" /></p>
+                        <strong>Volker Brandt</strong>
+                        <p>
+                            Volker Brandt ist als Geschäftsführer Ihr Ansprechpartner für Fragen zu Thermodynamik und IT.<br />
+                            Kontaktieren Sin Volker Brandt direkt per Mail, LinkedIn oder Telefon und erhalten Sie die richtigen Antworten auf Ihre Fragen.
+                        </p>
+                        <hr />
+                        <p class="mb-4">
+                            Telefon:<br>
+                            <a href="tel:+493047032311">+49 (0) 30 47 03 23 11</a>
+                        </p>
+                        <p>
+                            E-Mail:<br>
+                            <a href="mailto:volker.brandt@adakom.de">volker.brandt@adakom.de</a>
+                        </p>
+                        <p>
+                            <a href="https://www.linkedin.com/in/volker-brandt-245765124/" target="_blank"><img src="assets/images/InBug-White.png" width="30" alt="LinkedIn" /></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jobs" class="d-none">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col">
+                        <h2>Karriere</h2>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-md-6">
+                        <p class="mb-0 text-sm">Wir haben spannende Projekte in einem wachsenden Unternehmen mit Work-Life-Balance-Kultur.</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="mb-0 text-sm">
+                            <strong>Bitte sende Deine Bewerbung an:</strong><br />
+                            <a href="mailto:info@adakom.de">info@adakom.de</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-md">
+                            » <a href="job-softwareentwickler-c-in-berlin.html">Softwareentwickler (m/w/d)</a><br />
+                            » <a href="werkstudent-it-in-berlin.html">IT-Werkstudenten / Praktikanten (m/w/d)</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <h1 class="h2 mt-5 text-blue-light">Letzte abgeschlossene Projekte</h1>
+                    <div class="col-12">
+                        <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
                     </div>
-                </div>
-                <div class="swiper swiper-projects">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide text-center">
-                            <a href="assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.svg" width="150" height="150"></a><br>
-                            <strong>Airdryer</strong><br>
-                            <p>Erweiterung des CPQ Tools um weitere Bauvarianten, Auslegungscodes, Festigkeitsberechnungen, Optimierungsverfahren, standortspezifische Preisermittlungen und Stücklisten</p>
-                            <a href="assets/pdf/Project-Reference-Kelvion-AirDryer-2.0-DE.pdf" target="_blank">Mehr erfahren...</a>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <a href="assets/pdf/Project-Reference-Kelvion-DTS-EN.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-DTS-DE.svg" width="150" height="150"></a><br>
-                            <strong>Doppelrohr-Sicherheitswärmetauscher</strong><br>
-                            <p>Entwicklung eines Konfigurators, Integrierte GUI-Schnittstelle für Thermodynamik, Festigkeitsberechnung, Integrierte Produktstruktur, Erstellung von Maßskizzen/Technischen Unterlagen</p>
-                            <a href="assets/pdf/Project-Reference-Kelvion-DTS-EN.pdf" target="_blank">Mehr erfahren...</a>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <a href="assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.svg" width="150" height="150"></a><br>
-                            <strong>Auftragsanforderungen</strong><br>
-                            <p>Implementierung eines Workflows für die Abwicklung spezieller Zusatzanforderungen für PWT wie Beschichtung, Berechnungen, Dokumentation, Prüfungen, Versand, Zubehör, etc.</p>
-                            <a href="assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank">Mehr erfahren...</a>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <a href="assets/pdf/Project-Reference-Kelvion-Print-API-Configurator-DE.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-Print-API-Configurator-DE.svg" width="150" height="150"></a><br>
-                            <strong>Print API</strong><br>
-                            <p>Entwicklung einer Dokumentengenerierung API für die effiziente Dokumentengenerierung für technische Dokumente, Angebote, Aufträge, Fertigungspapiere</p>
-                            <a href="assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank">Mehr erfahren...</a>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <a href="assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Konfigurator-DE.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Configurator-DE.svg" width="150" height="150"></a><br>
-                            <strong>Schaltplan Konfigurator</strong><br>
-                            <p>Entwicklung einer API und GUI für die Konfiguration und Darstellung des Schaltplans für Plattenwärmeübertrager im Vertrieb inklusive Mehrstufige Apparate</p>
-                            <a href="assets/pdf/Project-Reference-Kelvion-Flow-Scheme-Konfigurator-DE.pdf" target="_blank">Mehr erfahren...</a>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <a href="assets/pdf/Project-Reference-Kelvion-Select-PHE-EN.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-Select-PHE-DE.svg" width="150" height="150"></a><br>
-                            <strong>Select PHE</strong><br>
-                            <p>Entwicklung einer API für die Auslegung von Plattenwärmeübertragern im Web, OPEN API, Integration in globale Vertriebs- und Engineeringwerkzeuge</p>
-                            <a href="assets/pdf/Project-Reference-Kelvion-Select-PHE-EN.pdf" target="_blank">Mehr erfahren...</a>
-                        </div>
-                        <div class="swiper-slide text-center">
-                            <a href="assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank"><img src="assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.svg" width="150" height="150"></a><br>
-                            <strong>Servicekonfigurator</strong><br>
-                            <p>Entwicklung eines Workflows für die Abwicklung des Servicegeschäftes für Plattenwärmeübertrager inkl. Dienstleistungen Vorort, Werk, Ersatzteilintegration, Reiseplanung der Servicetechniker</p>
-                            <a href="assets/pdf/Project-Reference-Kelvion-Service-Configurator-DE.pdf" target="_blank">Mehr erfahren...</a>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-        <section id="leistungen">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="h2 mt-5 mb-4 text-blue-light">Wir verstehen Ihre technischen Anforderungen der Wärmeübertrager.</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card pb-3 h-100 border-0 border-bottom-dotted-light-blue">
-                            <div class="row g-0">
-                                <div class="col-3">
-                                    <img src="./assets/images/icon-auslegungssoftware.svg" class="img-fluid rounded-start" alt="Icon Auslegungssoftware">
-                                </div>
-                                <div class="col-9">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-blue-light">Auslegungssoftware für Wärmeübertrager Hersteller</h5>
-                                        <p class="card-text">
-                                            Maßgeschneiderte Softwarelösungen und webbasierte Services für das Design Ihrer Wärmeübertrager. Diese Lösungen werden integriert in Ihre Softwarelandschaft und in Ihre Workflows.<br>
-                                            <a href="https://hx-online-configurator.adakom.de/process-selection" target="_blank" class="btn btn-outline-primary mt-3">Demo ansehen</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card pb-3 h-100 border-0 border-bottom-dotted-light-blue">
-                            <div class="row g-0">
-                                <div class="col-3">
-                                    <img src="./assets/images/icon-modellbildung.svg" class="img-fluid rounded-start" alt="Icon Modellbildung">
-                                </div>
-                                <div class="col-9">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-blue-light">Thermohydraulische Modellbildung</h5>
-                                        <p class="card-text">
-                                            Modelle für Sie entwickeln, um das Verhalten von Fluidströmungen und Wärmeübertragungsprozessen innerhalb Ihrer Wärmeübertrager zu beschreiben nach neusten wissenschaftlichen Erkenntnissen.<br>
-                                            <a href="https://www.adakom.de/services/calibration-thermal-calculation.html" target="_blank" class="btn btn-outline-primary mt-3">Mehr erfahren</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card pb-3 h-100 border-0 border-bottom-dotted-light-blue">
-                            <div class="row g-0">
-                                <div class="col-3">
-                                    <img src="./assets/images/icon-interfaces.svg" class="img-fluid rounded-start" alt="Icon Interfaces">
-                                </div>
-                                <div class="col-9">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-blue-light">Rest Interfaces</h5>
-                                        <p class="card-text">
-                                            RESTful API bereitstellen mit der Sie als Hersteller von Wärmeübertragern ihren Kunden eine nahtlose Integration in ihre eigenen Systeme und Prozesse ermöglichen, was die Effizienz verbessern und die Kundenzufriedenheit steigern kann.<br>
-                                            <a href="https://www.adakom.de/services/" target="_blank" class="btn btn-outline-primary mt-3">Mehr erfahren</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mt-2 mb-3 text-center">
-                        <a href="/services/"><img src="./assets/images/notebook-services.png" class="w-100" alt=""></a>
-                    </div>
-                    <div class="col-lg-4 px-lg-3 d-flex flex-column justify-content-center">
-                        <p class="h1 text-blue-light">Unser Service bietet das optimierte Wärmetauscher Plattenpaket zu den entsprechend vorgegebenen Prozess- und Randbedingungen.</p>
-                        <p class="mt-4"><a href="/services/" class="fs-1 link-secondary">HX Services besuchen</a></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col mt-5 mb-4">
-                        <h3 class="text-green">Gemeinsam analysieren wir, ob Ihre Wärmeübertrager effizient eingesetzt sind.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card pb-3 h-100 border-0 border-bottom-dotted-green">
-                            <div class="row g-0">
-                                <div class="col-3">
-                                    <img src="./assets/images/icon-vermessung.svg" class="img-fluid rounded-start" alt="Icon Vermessung">
-                                </div>
-                                <div class="col-9">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-green">Vermessung &amp; Optimierung</h5>
-                                        <p class="card-text text-hyphens">
-                                            Stellen Sie die langfristige Leistung und Zuverlässigkeit Ihres Wärmeübertragers im Betrieb sicher. Dazu gehören Energieeinsparungen, Lebensdauerverlängerung und Minimierung der Ausfallzeiten.<br>
-                                            <a href="https://www.adakom.de/assets/pdf/Adakom-White-Paper-Measurements.pdf" target="_blank" class="btn btn-outline-secondary mt-3">Mehr erfahren</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card pb-3 h-100 border-0 border-bottom-dotted-green">
-                            <div class="row g-0">
-                                <div class="col-3">
-                                    <img src="./assets/images/icon-energieeffizienz.svg" class="img-fluid rounded-start" alt="Icon Energieeffizienz">
-                                </div>
-                                <div class="col-9">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-green">Monitoring</h5>
-                                        <p class="card-text">
-                                            Scoring für Wärmeübertrager im Betrieb als function as a service oder stand alone Weblösung für die Überwachung der Effizienz und Leistungsfähigkeit Ihrer Geräte im Betrieb.<br>
-                                            <a href="https://hx-online-configurator.adakom.de" target="_blank" class="btn btn-outline-secondary mt-3">Demo ansehen</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card pb-3 h-100 border-0 border-bottom-dotted-green">
-                            <div class="row g-0">
-                                <div class="col-3">
-                                    <img src="./assets/images/icon-nachrechnung.svg" class="img-fluid rounded-start" alt="Icon Nachrechnung">
-                                </div>
-                                <div class="col-9">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-green">Nachrechnung</h5>
-                                        <p class="card-text">
-                                            Den Soll-Zustand des Wärmeübertragers im Betrieb und das simulieren unterschiedliche Lastfälle hilft Ihnen, Vorhersagen über den Betriebszustand und Foulingzustand Ihrer Geräte zu treffen.<br>
-                                            <a href="https://hx-online-configurator.adakom.de" target="_blank" class="btn btn-outline-secondary mt-3">Demo ansehen</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="unternehmen" class="mt-5 bg-blue-dark">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="text-white">Die Experten der Adakom haben Ihr Portfolio im Bereich technische Lösungen für Wärmeübertrager kontinuierlich durch die Entwicklung thermischer Modelle und firmeneigenen Konfiguratoren & Services ausgebaut.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-white">
-                        <p class="my-3 text-uppercase" style="margin-left: 100px;">Meilensteine</p>
-                        <ul class="list-unstyled timeline">
-                            <li>
-                                <div class="time">1998</div>
-                                <div class="title">Gründung der Adakom GmbH durch Volker Brandt und weitere Ingenieure</div>
-                            </li>
-                            <li>
-                                <div class="time">2002</div>
-                                <div class="title">Erstes Auslegungstool mit integriertem CRM / ERP System</div>
-                            </li>
-                            <li>
-                                <div class="time">2004</div>
-                                <div class="title">Zwei-Phasen-Modul Entwicklung</div>
-                            </li>
-                            <li>
-                                <div class="time">2005</div>
-                                <div class="title">Soll-Werte Verfahren für Wärmeübertrageroptimierung im Zellenmodell</div>
-                            </li>
-                            <li>
-                                <div class="time">2007</div>
-                                <div class="title">Erste Messbegleitung von Wärmeübertragern</div>
-                            </li>
-                            <li><div class="title"></div></li>
-                            <li><div class="title"></div></li>
-                            <li>
-                                <div class="time">2014</div>
-                                <div class="title">Vermessung von Wärmeübertragern im Anlagenbetrieb</div>
-                            </li>
-                            <li><div class="title"></div></li>
-                            <li>
-                                <div class="time">2017</div>
-                                <div class="title">Start eines gemeinsamen Projekts mit TU / PTB für mobile Messungen von Wärmeübertragern</div>
-                            </li>
-                            <li>
-                                <div class="time">2018</div>
-                                <div class="title">Ausbau des Teams und Erweiterung des Projektgeschäfts zur Integration von Wärmeübertragern</div>
-                            </li>
-                            <li>
-                                <div class="time">2019</div>
-                                <div class="title">API Entwicklung für die Web Auslegung von Wärmeübertragern</div>
-                            </li>
-                            <li><div class="title"></div></li>
-                            <li>
-                                <div class="time">2022</div>
-                                <div class="title">Schaltplanservice für Plattenwärmeübertrager</div>
-                            </li>
-                            <li>
-                                <div class="time">2023</div>
-                                <div class="title">API Entwicklung für CPQ und Dokumentengenerierung</div>
-                            </li>
-                            <li>
-                                <div class="time">2024</div>
-                                <div class="title">Anja Stipp-George und Volker Brandt führen die Adakom GmbH in die Zukunft</div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 text-white">
-                        <p class="my-3 text-uppercase" style="margin-left: 100px;">Auslegung und Konfiguration von</p>
-                        <ul class="list-unstyled timeline timeline-white">
-                            <li>
-                                <div class="time">1998</div>
-                                <div class="title">Gelöteten und Rohrbündel Wärmeübertrager</div>
-                            </li>
-                            <li>
-                                <div class="time">2002</div>
-                                <div class="title">Geschraubten Platten Wärmeübertrager</div>
-                            </li>
-                            <li><div class="title"></div></li>
-                            <li><div class="title"></div></li>
-                            <li>
-                                <div class="time">2007</div>
-                                <div class="title">Plate &amp; Shell Wärmeübertrager</div>
-                            </li>
-                            <li>
-                                <div class="time">2010</div>
-                                <div class="title">Tube &amp; Fin sowie Finned Tube Wärmeübertrager</div>
-                            </li>
-                            <li>
-                                <div class="time">2012</div>
-                                <div class="title">Hybrid Wärmeübertrager in Kreuzstromführung</div>
-                            </li>
-                            <li>
-                                <div class="time">2014</div>
-                                <div class="title">Vollverschweißter Wärmeübertrager mit frei konfigurierbaren Strömungsführungen</div>
-                            </li>
-                            <li>
-                                <div class="time">2015</div>
-                                <div class="title">Weitere Tube &amp; Fin sowie Finned Tube Wärmeübertrager</div>
-                            </li>
-                            <li>
-                                <div class="time">2017</div>
-                                <div class="title">Kompakt-Rippenrohrwärmeübertrager</div>
-                            </li>
-                            <li><div class="title"></div></li>
-                            <li>
-                                <div class="time">2019</div>
-                                <div class="title">Transformator-Kühlsysteme</div>
-                            </li>
-                            <li>
-                                <div class="time">2020</div>
-                                <div class="title">Doppelrohr-Sicherheitssystem</div>
-                            </li>
-                            <li>
-                                <div class="time">2021</div>
-                                <div class="title">API für Kundenversion</div>
-                            </li>
-                            <li>
-                                <div class="time">2022</div>
-                                <div class="title">API für Betriebsdatenerfassung und -auswertung</div>
-                            </li>
-                            <li><div class="title"></div></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="portrait">
-            <div class="container px-0 mb-4">
-                <div class="row">
-                    <div class="col">
-                        <img src="./assets/images/portrait.jpg" class="w-100" alt="Portrait">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="referenzen">
-            <div class="container">
-                <div class="row">
-                    <div class="col ">
-                        <h2 class="mt-5 text-blue-dark">Mit diesen Firmen haben wir bereits zusammengearbeitet.</h2>
-                    </div>
-                </div>
-                <div class="row mt-5 mb-3">
-                    <div class="col">
-                        <h5 class="text-blue-dark">Konfiguratoren mit folgenden Unternehmen</h5>
-                    </div>
-                </div>
-                <div class="row mb-3 pb-3 border-bottom-dotted-dark-blue">
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/hersteller/gea.svg" height="70" class="w-125" alt="GEA"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/hersteller/kelvion.svg" height="70" class="w-125" alt="Kelvion"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/hersteller/funke.svg" class="w-100" alt="Funke"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/hersteller/wcr.png" class="w-100" alt="WCR"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/hersteller/wegmann.png" class="w-100" alt="Wegmann"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/hersteller/gesmex.png" class="w-100" alt="GESMEX"></div>
-                </div>
-                <div class="row mt-5 mb-3">
-                    <div class="col">
-                        <h5 class="text-blue-dark">Technische Bewertungen von Wärmeübertragern mit folgenden Firmen vorgenommen</h5>
-                    </div>
-                </div>
-                <div class="row mb-3 pb-3 border-bottom-dotted-dark-blue">
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/betreiber/vivantes.svg" height="70" class="w-125" alt="Vivantes"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/betreiber/wild-flavours.png" class="w-100" alt="Wild Flavours"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/betreiber/man-diesel-turbo.png" class="w-100" alt="MAN"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/betreiber/blb-brandenburg.png" height="70" class="w-125" alt="BLB Brandenburg"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/betreiber/linde.svg" height="70" class="w-125" alt="Linde"></div>
-                </div>
-                <div class="row mt-5 mb-3">
-                    <div class="col">
-                        <h5 class="text-blue-dark">Forschungsthemen mit folgenden Institutionen gemeinsam untersucht</h5>
-                    </div>
-                </div>
-                <div class="row mb-3 pb-3 border-bottom-dotted-dark-blue">
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/forschung/ptb.svg" height="70" class="w-125" alt="PTB"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/forschung/tu-berlin.svg" height="70" class="w-125" alt="TU Berlin"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/forschung/vdi.svg" height="70" class="w-125" alt="VDI"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/forschung/energiewende.png" class="w-100" alt="Energiewende"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/forschung/htw-berlin.svg" height="70" class="w-125" alt="HTW Berlin"></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><img src="./assets/images/referenzen/forschung/nivex.png" class="w-100" alt="NivEX"></div>
-                </div>
-                <div class="row mt-5 mb-3">
-                    <div class="col">
-                        <h5 class="text-blue-dark">Veröffentlichungen unserer Experten</h5>
-                    </div>
-                </div>
-                <div class="row mb-3 pb-3 border-bottom-dotted-dark-blue">
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><a href="./assets/pdf/CITplus1812_ADAKOM.pdf" title="CTI plus" target="_blank"><img src="./assets/images/referenzen/fachpresse/che.png" class="w-100" alt="CHE"></a></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><a href="https://www.chemanager-online.com/news/mit-clamp-sensorik-waermeuebertragerfouling-ohne-betriebsunterbrechung-detektieren" title="Mit Clamp-On Sensorik Wärmeübertragerfouling ohne Betriebsunterbrechung detektieren" target="_blank"><img src="./assets/images/referenzen/fachpresse/heat-pump-conf.png" class="w-100" alt="Heat Pump Conf"></a></div>
-                    <div class="col-6 col-sm-4 col-lg-2 mb-3 d-flex align-content-center justify-content-center"><a href="https://hpc2017.org/wp-content/uploads/2017/05/O.4.6.1-Non-intrusive-characterization-of-thermally-driven-heat-pumps.pdf" title="Non-intrusive characterization of thermally driven heat pumps" target="_blank"><img src="./assets/images/referenzen/fachpresse/cit-plus.png" class="w-100" alt="CTI plus"></a></div>
-                </div>
-            </div>
-        </section>
-        <section id="jobs" class="mt-5 bg-blue-light">
-            <div class="container pt-5 pb-5">
-                <div class="col px-5 py-5 bg-white">
-                    <h3 class="text-blue-light">Wir suchen derzeit neue Mitarbeiter</h3>
-                    <ul class="mt-4 mb-4">
-                        <li><a href="job-ingenieur-verfahrens-prozesstechnik-in-berlin.html">Ingenieur/in Verfahrens- und Prozesstechnik (m/w/d)</a></li>
-                        <li><a href="job-softwareentwickler-c-in-berlin.html">Softwareentwickler (m/w/d)</a></li>
-                        <li><a href="werkstudent-it-in-berlin.html">IT-Werkstudent/ Praktikant (m/w/d)</a></li>
-                    </ul>
-                    <p class="mb-0 text-blue-light">Dann bewerben Sie sich jetzt. Wir freuen uns auf Ihre Bewerbung mit Angabe Ihrer Gehaltsvorstellung und des frühestmöglichen Eintrittstermins per E-Mail an: <a href="mailto:jobs@adakom.de">jobs@adakom.de</a>.
                 </div>
             </div>
         </section>
     </article>
-    <footer id="footer">
-        <div class="container mt-5">
-            <div class="row flex-md-wrap">
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">Adresse</h2>
-                    <p>
-                        ADAKOM GmbH<br>
-                        Josef-Orlopp-Str. 38<br>
-                        10365 Berlin<br>
-                        Deutschland
-                    </p>
-                </div>
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">E-Mail</h2>
-                    <p><a href="mailto:info@adakom.de">info@adakom.de</a></p>
-                </div>
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">Telefon</h2>
-                    <p><a href="tel:+493047032310">+49 (0) 30 47 03 2310</a></p>
-                </div>
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">Telefax</h2>
-                    <p><a href="tel:+493047032316">+49 (0) 30 47 03 2316</a></p>
-                </div>
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">Rechtliches</h2>
-                    <p>
-                        <a href="./datenschutz.html">Datenschutzerklärung</a><br>
-                        <a href="./impressum.html">Impressum</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/jquery/dist/jquery.min.js"></script>
-    <script src="vendor/swiper/swiper-bundle.min.js"></script>
     <script>
         $('.nav-link').click(function(e) {
             const divId = $(this).attr('href');
-            const offset = 106;
+            const offset = 140;
             $('html, body').animate({
                 scrollTop: $(divId).offset().top - offset
             }, 100);
@@ -511,32 +467,6 @@
                 bsCollapse.toggle();
             }
             e.preventDefault();
-        });
-
-        const swiper = new Swiper('.swiper-projects', {
-            direction: 'horizontal',
-            centeredSlides: true,
-            loop: true,
-            slidesPerView: 1,
-            spaceBetween: 10,
-            breakpoints: {
-                480: {
-                    slidesPerView: 2,
-                    spaceBetween: 20
-                },
-                768: {
-                    slidesPerView: 3,
-                    spaceBetween: 30
-                },
-                1024: {
-                    slidesPerView: 4,
-                    spaceBetween: 40
-                }
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true
-            },
         });
     </script>
     <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="wgArU3uG2" async></script>

@@ -32,31 +32,33 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
-        <div class="container">
-            <a class="navbar-brand" href="./" title="ADAKOM GmbH">
-                <span class="text-blue-dark text-uppercase">ADAKOM</span> <span class="d-lg-none"><br></span><span class="text-blue-light text-uppercase">Software &amp; engineering</span>
-            </a>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue-dark">
+        <div class="container position-relative">
             <button class="navbar-toggler border-0 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a href="/en" class="d-lg-none position-absolute text-white" style="top: 8px; left: 50px; font-size: 11px;">Englisch</a>
+            <a class="navbar-brand" href="./" title="ADAKOM GmbH">
+                <span class="text-uppercase text-white">ADAKOM</span> <span class="d-lg-none"><br></span><span class="text-uppercase text-light-blue">Software &amp; engineering</span>
+            </a>
             <div id="navbar-collapse" class="collapse navbar-collapse">
                 <div class="navbar-nav navbar-nav-scroll">
-                    <a class="nav-link" href="./#leistungen">Leistungen</a>
-                    <a class="nav-link" href="./#unternehmen">Unternehmen</a>
-                    <a class="nav-link" href="./#referenzen">Referenzen</a>
-                    <a class="nav-link" href="./#jobs">Jobs</a>
-                    <a class="nav-link" href="./#footer">Kontakt</a>
-                    <a class="nav-link" href="/en/">Englisch</a>
+                    <a class="nav-link" href="./#services">Services</a>
+                    <a class="nav-link" href="./#projects">Projekte</a>
+                    <a class="nav-link" href="./#company">Unternehmen</a>
+                    <a class="nav-link" href="./#contact">Ansprechpartner</a>
+                    <a class="nav-link" href="./#jobs">Karriere</a>
+                    <a class="nav-link d-none d-lg-block" href="/en/">Englisch</a>
                 </div>
             </div>
         </div>
     </nav>
-    <article>
-        <section class="py-md-5 bg-blue-light">
+
+    <article data-bs-spy="scroll" data-bs-offset="0" data-bs-target="#navbar-collapse" data-bs-smooth-scroll="true" tabindex="0">
+        <section>
             <div class="container">
                 <div class="row ">
-                    <div class="col p-md-5 bg-white">
+                    <div class="col p-md-5">
                         <h1 class="h2 py-3 text-blue-dark">Impressum</h1>
                         <p>
                             <strong>ADAKOM GmbH</strong><br>
@@ -85,8 +87,6 @@
                             <strong>Umsatzsteuer-Identifikationsnummer:</strong><br>
                             DE 196587129
                         </p>
-                        <h3 class="py-2 text-blue-light">Bildnachweis</h3>
-                        <p>Notebook - © guteksk7 / #266339089 / <a href="http://stock.adobe.com/" target="_blank">stock.adobe.com</a></p>
                         <h3 class="py-2 text-blue-light">Disclaimer</h3>
                         <p>Es wird von uns keine Garantie dafür übernommen, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und in jedem Fall aktuell sind.</p>
                         <p>Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Wir haben keinerlei Einfluss auf die aktuelle und zukünftige Gestaltung der verlinkten Seiten. Wir distanzieren uns hiermit ausdrücklich von allen inhaltlichen Änderungen, die nach der Linksetzung auf den verlinkten Seiten vorgenommen werden. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
@@ -98,47 +98,24 @@
               </div>
             </div>
         </section>
-    </article>
-    <footer>
-        <div class="container mt-5">
-            <div class="row flex-md-wrap">
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">Adresse</h2>
-                    <p>
-                        ADAKOM GmbH<br>
-                        Josef-Orlopp-Str. 38<br>
-                        10365 Berlin<br>
-                        Deutschland
-                    </p>
-                </div>
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">E-Mail</h2>
-                    <p><a href="mailto:info@adakom.de">info@adakom.de</a></p>
-                </div>
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">Telefon</h2>
-                    <p><a href="tel:+493047032310">+49 (0) 30 47 03 2310</a></p>
-                </div>
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">Telefax</h2>
-                    <p><a href="tel:+493047032316">+49 (0) 30 47 03 2316</a></p>
-                </div>
-                <div class="col-6 col-md">
-                    <h2 class="mb-3 text-blue-dark">Rechtliches</h2>
-                    <p>
-                        <a href="./datenschutz.html">Datenschutzerklärung</a><br>
-                        <a href="./impressum.html">Impressum</a>
-                    </p>
+
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
+    </article>
+
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/jquery/dist/jquery.min.js"></script>
     <script>
         $('.nav-link').click(function(e) {
             const divId = $(this).attr('href');
-            const offset = 106;
+        const offset = 140;
             $('html, body').animate({
                 scrollTop: $(divId).offset().top - offset
             }, 100);

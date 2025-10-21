@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1160px" height="700px" viewBox="0 0 1160 700" style="enable-background:new 0 0 1160 700;" xml:space="preserve">
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90.3 155.9" style="enable-background:new 0 0 90.3 155.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#009EE3;}
-	.st1{fill:#C8E8FB;}
-	.st2{fill:#004993;}
 </style>
-<g id="Ebene_1_1_">
+<g id="HG_königsblau">
 </g>
 <g id="Buchstabe_A_in_cyan">
-	<g>
-		<polygon class="st0" points="1017.6,0.5 796,699.5 890.8,699.5 928.5,577 954.9,492.5 1071,119.8 1071,119.8 1071,699.5 
-			1160,699.5 1160,0.5 		"/>
-	</g>
 </g>
 <g id="hellblauer_horizontaler_Balken">
-	<g>
-		<polygon class="st1" points="861.6,492.5 834.8,577.1 1160,577.1 1160,492.5 		"/>
-	</g>
+	<path class="st0" d="M9.2,155.9h21.2l8.5-27.3h31.7v27.3h19.8v-27.3v-18.9V0H58.5l-38,119.9l-2.8,8.7h0L9.2,155.9z M70.5,26.6
+		L70.5,26.6l0,83.1H44.7L70.5,26.6z"/>
 </g>
 <g id="ADAKOM_Schriftzug">
 	<g>
-		<path class="st2" d="M901.3,559.1l-3.1-10h-19.3l-3.1,10h-6.5l16.1-51h6.1l16.1,51H901.3z M888.6,518l-7.9,25.3h15.7L888.6,518z"
-			/>
-		<path class="st2" d="M933.8,559.1H918v-51h15.8c11,0,15.8,7,15.8,16.5v17.9C949.6,552.2,944.8,559.1,933.8,559.1z M943.5,524.7
-			c0-5.5-2.6-10.8-9.7-10.8h-9.7v39.5h9.7c7.1,0,9.7-5.2,9.7-10.8V524.7z"/>
-		<path class="st2" d="M989.6,559.1l-3.1-10h-19.3l-3.1,10h-6.5l16.1-51h6.1l16.1,51H989.6z M976.9,518l-7.9,25.3h15.7L976.9,518z"
-			/>
-		<path class="st2" d="M1006.4,559.1v-51h6.1v51H1006.4z M1030.8,559.1l-17.6-26.6l16.9-24.4h7.2l-16.9,24.4l17.6,26.6H1030.8z"/>
-		<path class="st2" d="M1061.1,559.1h-1.4c-10.2,0-15.1-7-15.1-16.5v-17.9c0-9.5,4.9-16.5,15.1-16.5h1.4c10.2,0,15.1,7,15.1,16.5
-			v17.9C1076.2,552.2,1071.3,559.1,1061.1,559.1z M1070.1,524.7c0-5.5-2.5-10.8-9-10.8h-1.4c-6.5,0-9,5.2-9,10.8v17.9
-			c0,5.5,2.5,10.8,9,10.8h1.4c6.5,0,9-5.2,9-10.8V524.7z"/>
-		<path class="st2" d="M1124.8,559.1v-38l-12.1,25.8h-6.4l-12.1-25.8v38h-6.1v-51h6.8l14.6,31.4l14.5-31.4h6.8v51H1124.8z"/>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
 	</g>
 </g>
 </svg>
