@@ -5,7 +5,7 @@
 <font horiz-adv-x="1000">
 <!-- Copyright 2005 by Ole Schaefer, published by primetype GmbH, primetype.com for the primetype library. All Rights Reserved. -->
 <!-- Copyright: Copyright 2025 Adobe System Incorporated. All rights reserved. -->
-<font-face font-family="NotesStyle-Regular" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<font-face font-family="NotesStyle" font-weight="400" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
 <missing-glyph horiz-adv-x="495" d="M70,0l355,0l0,710l-355,0M145,75l0,560l205,0l0,-560z"/>
 <glyph unicode="C" horiz-adv-x="455" d="M415,0l0,80l-140,0C180,80 145,153 145,230l0,250C145,557 181,630 275,630l140,0l0,80l-143,0C125,710 60,613 60,480l0,-250C60,97 126,0 272,0z"/>
 <glyph unicode="P" horiz-adv-x="550" d="M490,505C490,638 414,710 270,710l-200,0l0,-710l85,0l0,300l115,0C414,300 490,372 490,505M405,505C405,428 359,380 270,380l-115,0l0,250l115,0C359,630 405,582 405,505z"/>
@@ -35,7 +35,7 @@
 	<font horiz-adv-x="1000">
 <!-- Copyright 2005 by Ole Schaefer, published by primetype GmbH, primetype.com for the primetype library. All Rights Reserved. -->
 <!-- Copyright: Copyright 2025 Adobe System Incorporated. All rights reserved. -->
-<font-face font-family="NotesStyle-Bold" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<font-face font-family="NotesStyle" font-weight="700" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
 <missing-glyph horiz-adv-x="525" d="M60,0l405,0l0,710l-405,0M180,120l0,470l165,0l0,-470z"/>
 <glyph unicode="H" horiz-adv-x="610" d="M550,0l0,710l-135,0l0,-285l-220,0l0,285l-135,0l0,-710l135,0l0,300l220,0l0,-300z"/>
 <glyph unicode="S" horiz-adv-x="525" d="M475,207l0,20C475,351 405,391 329,416l-85,28C209,456 185,474 185,507l0,5C185,560 211,585 280,585l175,0l0,125l-177,0C153,710 50,654 50,512l0,-15C50,392 106,345 177,321l85,-28C306,278 340,261 340,217l0,-10C340,149 311,125 235,125l-185,0l0,-125l193,0C397,0 475,51 475,207z"/>
@@ -1828,7 +1828,7 @@ xYx85CF5MfOQvNjHzEIXmxj5iEL0MY+UhC9LGPlIQvUxj5CEL1sY85CF7WPB5xkLBe5jwecRYLBZ
 		</image>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 151.5915 304.9639)" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px"> </text>
+<text transform="matrix(1 0 0 1 151.5915 304.9639)" fill="#004993" font-family="'NotesStyle'" font-size="27.375px"> </text>
 <g>
 	<defs>
 		<path id="SVGID_00000018935351672403558220000001750509458348973245_" d="M348.5,1113.3c-1.2,0-2.4-0.1-3.7-0.1c0,0,0,0,0,0
@@ -1851,22 +1851,22 @@ cn6K6dW2S9/TeubVtjtf0Wr/2Q==" transform="matrix(0.5006 0 0 0.512 341.933 1109.26
 		</image>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 232.2946 1013.9717)" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px"> </text>
-<text transform="matrix(1 0 0 1 534.0446 880.3233)" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px"> </text>
+<text transform="matrix(1 0 0 1 232.2946 1013.9717)" fill="#004993" font-family="'NotesStyle'" font-size="27.375px"> </text>
+<text transform="matrix(1 0 0 1 534.0446 880.3233)" fill="#004993" font-family="'NotesStyle'" font-size="27.375px"> </text>
 <rect x="190.8" y="65.2" fill="none" width="199.9" height="64.4"/>
-<text transform="matrix(1 0 0 1 226.9432 84.6593)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">Services for </tspan><tspan x="4.7" y="32.9" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">integration </tspan></text>
+<text transform="matrix(1 0 0 1 226.9432 84.6593)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">Services for </tspan><tspan x="4.7" y="32.9" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">integration </tspan></text>
 <rect x="67.6" y="252.5" fill="none" width="119.6" height="97.5"/>
-<text transform="matrix(1 0 0 1 76.9008 271.9128)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">Configure </tspan><tspan x="26.3" y="32.9" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">your </tspan><tspan x="10" y="65.7" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">product</tspan></text>
+<text transform="matrix(1 0 0 1 76.9008 271.9128)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">Configure </tspan><tspan x="26.3" y="32.9" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">your </tspan><tspan x="10" y="65.7" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">product</tspan></text>
 <rect x="345.6" y="350" fill="none" width="190.8" height="97.5"/>
-<text transform="matrix(1 0 0 1 377.2093 369.4182)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">Services for</tspan><tspan x="0.4" y="32.9" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">engineering</tspan><tspan x="34.9" y="65.7" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">tasks</tspan></text>
+<text transform="matrix(1 0 0 1 377.2093 369.4182)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">Services for</tspan><tspan x="0.4" y="32.9" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">engineering</tspan><tspan x="34.9" y="65.7" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">tasks</tspan></text>
 <rect x="388.5" y="860.5" fill="none" width="190.8" height="97.5"/>
-<text transform="matrix(1 0 0 1 439.0826 879.9042)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">Services </tspan><tspan x="-25.3" y="32.9" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">for operation</tspan></text>
+<text transform="matrix(1 0 0 1 439.0826 879.9042)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">Services </tspan><tspan x="-25.3" y="32.9" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">for operation</tspan></text>
 <rect x="250.8" y="1182.6" fill="none" width="190.8" height="97.5"/>
-<text transform="matrix(1 0 0 1 289.9165 1202.0736)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">Consulting </tspan><tspan x="11.5" y="32.9" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">Services</tspan></text>
+<text transform="matrix(1 0 0 1 289.9165 1202.0736)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">Consulting </tspan><tspan x="11.5" y="32.9" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">Services</tspan></text>
 <rect x="104.9" y="994.5" fill="none" width="190.8" height="97.5"/>
-<text transform="matrix(1 0 0 1 168.307 1013.9722)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">Quote</tspan><tspan x="-25.9" y="32.9" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">generation</tspan></text>
+<text transform="matrix(1 0 0 1 168.307 1013.9722)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">Quote</tspan><tspan x="-25.9" y="32.9" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">generation</tspan></text>
 <rect x="18.7" y="767.9" fill="none" width="164.8" height="71.1"/>
-<text transform="matrix(1 0 0 1 74.6456 787.3591)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">Price </tspan><tspan x="-30.5" y="32.9" fill="#004993" font-family="'NotesStyle-Regular'" font-size="27.375px">calculation</tspan></text>
+<text transform="matrix(1 0 0 1 74.6456 787.3591)"><tspan x="0" y="0" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">Price </tspan><tspan x="-30.5" y="32.9" fill="#004993" font-family="'NotesStyle'" font-size="27.375px">calculation</tspan></text>
 <rect x="226.9" y="557.9" fill="none" width="219.5" height="166.8"/>
-<text transform="matrix(1 0 0 1 280.4678 580.6009)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NotesStyle-Bold'" font-size="32px">Sotware </tspan><tspan x="31.5" y="40" fill="#FFFFFF" font-family="'NotesStyle-Bold'" font-size="32px">and</tspan><tspan x="-23.1" y="80" fill="#FFFFFF" font-family="'NotesStyle-Bold'" font-size="32px">engineering</tspan><tspan x="14.1" y="120" fill="#FFFFFF" font-family="'NotesStyle-Bold'" font-size="32px">for HX</tspan></text>
+<text transform="matrix(1 0 0 1 280.4678 580.6009)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'NotesStyle'" font-weight="700" font-size="32px">Software </tspan><tspan x="31.5" y="40" fill="#FFFFFF" font-family="'NotesStyle'" font-weight="700" font-size="32px">and</tspan><tspan x="-23.1" y="80" fill="#FFFFFF" font-family="'NotesStyle'" font-weight="700" font-size="32px">engineering</tspan><tspan x="14.1" y="120" fill="#FFFFFF" font-family="'NotesStyle'" font-weight="700" font-size="32px">for HX</tspan></text>
 </svg>
